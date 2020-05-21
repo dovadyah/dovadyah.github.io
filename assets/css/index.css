@@ -289,6 +289,10 @@ a {
         color:rgba(117, 117, 117, 1);
     }
 
+    #contact #contact-items #contact-form-container {
+        margin-top: 50px;
+    }
+
     #contact #contact-items #contact-form-container #contact-form #submit-form-button{
         cursor: pointer;
     } 
