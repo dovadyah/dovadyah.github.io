@@ -296,3 +296,14 @@ a {
     #contact #contact-items #contact-form-container #contact-form #submit-form-button{
         cursor: pointer;
     } 
+
+/* Footer */
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(117, 117, 117, .5);
+}
+
+    footer .container{
+        height: 65px;
+    }
