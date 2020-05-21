@@ -5,6 +5,7 @@ body {
     width: 100%;
     padding: 0px;
     margin: 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -121,7 +122,7 @@ a {
     }
 
         #jumbotron-main #jumbotron-introduction #jumbotron-copy {
-            font-family: 'Raleway', sans-serif;
+            /* font-family: 'Raleway', sans-serif; */
             font-weight: 600;
             font-size: 30px;
             color: rgba(117, 117, 117, .75);
@@ -188,7 +189,6 @@ a {
             #insights-description .container-grid #insights-grid-copy #insights-paragraph-description {
                 margin-top: 65px;
                 word-wrap: break-word;
-                font-family: 'Raleway', sans-serif;
                 font-size: 20px;
                 line-height: 35px;
                 color: rgba(117, 117, 117, .75);
@@ -205,7 +205,6 @@ a {
         #insights-description .container-grid #article-grid .article-title{
             width: 100%;
             word-wrap: break-word;
-            font-family: 'Raleway', sans-serif;
             font-size: 15px;
             font-weight: 500;
             line-height: 25px;
@@ -233,4 +232,9 @@ a {
 
     #about-me-section .container #about-description-copy{
         margin: auto auto auto 0px;
+    }
+
+    #about-me-section .container #about-description-copy #about-list{
+        font-size: 20px;
+        color: rgba(117, 117, 117, .75);
     }
