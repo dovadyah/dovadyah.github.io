@@ -79,6 +79,33 @@ a {
     border-bottom: 7px solid rgba(151, 143, 235, 1);
 }
 
+.social-media-icon{
+    height: 25px;
+    margin: 5px 10px 10px 10px;
+}
+
+.form-input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 30px 0px;
+    border: none;
+    border-bottom: 5px solid rgba(151, 143, 235, .75);
+    color: rgba(117, 117, 117, .75);
+}
+
+.form-input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgba(117, 117, 117, .40);
+}
+
+.form-input:focus{
+    outline: none;
+}
+
 /* Navbar */
 #navbar {
     height: 100px;
@@ -234,7 +261,34 @@ a {
         margin: auto auto auto 0px;
     }
 
-    #about-me-section .container #about-description-copy #about-list{
-        font-size: 20px;
-        color: rgba(117, 117, 117, .75);
+        #about-me-section .container #about-description-copy #about-list{
+            font-size: 20px;
+            color: rgba(117, 117, 117, .75);
+        }
+
+/* Contact */
+#contact{
+    height: 800px;
+}
+
+    #contact #contact-title{
+        margin: auto auto auto 10px;
     }
+
+        #contact #contact-title #contact-header-title{
+            font-size: 40px;
+        }
+
+        #contact #contact-title #contact-header-border{
+            width: 100%;
+        }
+
+    #contact #contact-items{
+        margin: auto 0px;
+        font-size: 15px;
+        color:rgba(117, 117, 117, 1);
+    }
+
+    #contact #contact-items #contact-form-container #contact-form #submit-form-button{
+        cursor: pointer;
+    } 
